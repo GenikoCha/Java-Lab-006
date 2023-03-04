@@ -10,8 +10,8 @@
 import java.util.Scanner;
 
 public class Lab006{
-    private int n;
-    private int m;
+    int n;
+    int m;
 
     /**
      *
@@ -28,12 +28,7 @@ public class Lab006{
      * @return boolean to see if n is divisible by m
      */
     public boolean isDivisible(){
-
-        if (n % m == 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return n % m == 0;
     }
 
     public static void main(String[] args) {
